@@ -1,0 +1,35 @@
+.ds-button {
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px; 
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ds-button--default {
+  color: #f5f5f5;
+  background-color: #2c2c2c; 
+  border: none;
+}
+
+.ds-button--default.ds-button--hover { 
+  background-color: #1e1e1e;
+}
+
+.ds-button--outlined { 
+  background-color: white;
+  color: #2c2c2c;
+  border: 1px solid #2c2c2c;
+}
+
+.ds-button--hover.ds-button--outlined { 
+  background-color: #f5f5f5;
+}
+
+ 

@@ -1,0 +1,23 @@
+.ds-text {
+  color: black;
+  font-family: "Inter", sans-serif; 
+}
+
+.ds-text--body {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.ds-text--subheading {
+ font-size: 20px;
+ line-height: 120%;
+ font-weight: 400;
+}
+
+.ds-text--heading {
+  letter-spacing: -2%;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+}
