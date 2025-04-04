@@ -3,20 +3,19 @@ import clsx from 'clsx';
 import classes from './button.module.css';
 
 export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
-  variant?: 'default' | 'outlined';
-  hover?: boolean;
+  variant?: 'default' | 'outlined'; 
+  children?: React.ReactNode;
 }
 
-export const Button = ({ className, variant = 'default', hover = false, ...props }: ButtonProps) => {
+export const Button = ({ className, children, variant = 'default', ...props }: ButtonProps) => {
   return (
     <button
       className={clsx(
         classes['ds-button'],
         classes[`ds-button--${variant}`],
-        { [classes['ds-button--hover']]: hover },
         className
       )}
       {...props}
-    > Button </button>
+    > {children} </button>
   );
 };
